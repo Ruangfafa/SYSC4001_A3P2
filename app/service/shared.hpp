@@ -6,6 +6,7 @@ struct SharedData {
     int student_id;
     int question_status[5];
     int exam_loaded;
+    int active_TA_count;
 };
 
 #endif
