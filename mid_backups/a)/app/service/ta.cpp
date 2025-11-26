@@ -34,7 +34,7 @@ void TA_process(int id, SharedData* data) {
             usleep(delay_ms * 1000);
 
             if (rand() % 10 == 0) {
-                data->rubric[i][2] += 1;  // 'A' -> 'B'
+                data->rubric[i][2] += 1;
                 cout << "[TA " << id << "] Corrected rubric line "
                      << (i + 1) << " → " << data->rubric[i] << endl;
             }
